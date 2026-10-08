@@ -1,0 +1,26 @@
+{
+  "id": "53392",
+  "slug": "arnhemse-meisjes-53392",
+  "title": "Arnhemse meisjes",
+  "description": "Receta fácil y saludable de arnhemse meisjes preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53392.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "5 rebanadas de hojaldre",
+    "azúcar de vainilla",
+    "Media cucharadita de canela",
+    "1/2 Cardamomo",
+    "Ralladura de 1 lima"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Arnhemse meisjes.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

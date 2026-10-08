@@ -1,0 +1,39 @@
+{
+  "id": "53317",
+  "slug": "empanadas-de-carne-53317",
+  "title": "Empanadas de Carne",
+  "description": "Receta fácil y saludable de empanadas de carne preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53317.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "60 g de manteca de cerdo",
+    "340 g de agua",
+    "1 cucharadita de sal",
+    "harina común",
+    "(3) Tomate",
+    "1 diente de ajo",
+    "1 cebolla morada grande",
+    "Racimo de cebolletas",
+    "ENTRECOT",
+    "1 cucharada de orégano seco",
+    "1 cdta. de pimentón",
+    "1/4 cucharadita de pimienta roja molida (pimienta de Cayena)",
+    "• 1 cucharadita de perejil",
+    "Para probar la sal",
+    "Para probar la pimienta",
+    "3 huevos",
+    "Lavado de huevos con salpicaduras",
+    "Chimichurri en llovizna"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Empanadas de Carne.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

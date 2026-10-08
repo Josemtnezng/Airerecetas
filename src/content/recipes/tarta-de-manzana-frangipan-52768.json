@@ -1,0 +1,30 @@
+{
+  "id": "52768",
+  "slug": "tarta-de-manzana-frangipan-52768",
+  "title": "Tarta de manzana Frangipan",
+  "description": "Receta fácil y saludable de tarta de manzana frangipan preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/52768.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "175 g/6 oz de galletas digestivas",
+    "75 g/3 oz de mantequilla",
+    "200 g/7 oz de manzanas Bramley",
+    "75 g/3 oz de mantequilla salada",
+    "75 g/3 oz de azúcar glas",
+    "2 huevos de corral, batidos",
+    "75 g/3 oz de almendras molidas",
+    "1 cucharadita de extracto de almendra",
+    "50 g/1¾oz de almendras en copos"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Tarta de manzana Frangipan.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

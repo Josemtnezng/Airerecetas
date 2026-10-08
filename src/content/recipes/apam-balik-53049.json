@@ -1,0 +1,30 @@
+{
+  "id": "53049",
+  "slug": "apam-balik-53049",
+  "title": "Apam balik",
+  "description": "Receta fácil y saludable de apam balik preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53049.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "200 ml. de leche",
+    "60 ml de aceite",
+    "2. Huevos",
+    "1600 g de harina",
+    "3 cucharaditas de polvo para hornear",
+    "1/2 cucharadita de sal ",
+    "mantequilla sin sal",
+    "45 g de azúcar",
+    "3 cucharadas de mantequilla de maní"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Apam balik.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

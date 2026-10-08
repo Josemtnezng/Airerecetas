@@ -1,0 +1,33 @@
+{
+  "id": "53068",
+  "slug": "beef-mechado-53068",
+  "title": "Beef Mechado",
+  "description": "Receta fácil y saludable de beef mechado preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53068.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "3 dientes de ajo",
+    "CEBOLLA LAMINADA",
+    "2 libras de carne de res",
+    "8 onzas de puré de tomate",
+    "1 taza de agua",
+    "3 cucharadas de aceite de oliva",
+    "- Rodaja de limón",
+    "1 patata grande",
+    "230 ml de salsa de soja ",
+    "1/2 cucharadita de pimienta negra",
+    "2 hojas de laurel",
+    "Para probar la sal"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Beef Mechado.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

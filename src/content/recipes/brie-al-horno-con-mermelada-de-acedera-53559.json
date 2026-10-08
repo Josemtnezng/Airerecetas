@@ -1,0 +1,33 @@
+{
+  "id": "53559",
+  "slug": "brie-al-horno-con-mermelada-de-acedera-53559",
+  "title": "Brie al horno con mermelada de acedera",
+  "description": "Receta fácil y saludable de brie al horno con mermelada de acedera preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53559.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 10,
+  "temperatureCelsius": 200,
+  "servings": 4,
+  "ingredients": [
+    "1 taza de acedera seca",
+    "2 tazas de azúcar mascabado",
+    "1 cucharadita de jengibre en polvo",
+    "1/4 taza de canela",
+    "1 vaina de vainilla",
+    "Cáscara de 1 naranja",
+    "agua hervida",
+    "Huevo batido 1",
+    "1 rebanada de hojaldre",
+    "2 libras de brie",
+    "Para servir mermelada de acedera",
+    "1 cucharadita de agua"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Brie al horno con mermelada de acedera.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 200°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 10 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

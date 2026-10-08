@@ -1,0 +1,30 @@
+{
+  "id": "52893",
+  "slug": "crumble-de-manzana-y-mora-52893",
+  "title": "Crumble de manzana y mora",
+  "description": "Receta fácil y saludable de crumble de manzana y mora preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/52893.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "Harina corriente",
+    "azúcar glas",
+    "60 g de mantequilla",
+    "300 g de manzanas Braeburn",
+    "30 g de mantequilla",
+    "Azúcar moreno",
+    "120 g de moras",
+    "¼ de cucharadita de canela",
+    "para servir helado"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Crumble de manzana y mora.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

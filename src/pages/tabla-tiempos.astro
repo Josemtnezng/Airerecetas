@@ -1,0 +1,293 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+
+type Accion = 'agitar' | 'voltear' | 'ninguna';
+
+interface Timing {
+  categoria: string;
+  alimento: string;
+  emoji: string;
+  temp: number;
+  min: number;
+  max: number;
+  accion: Accion;
+  consejo: string;
+}
+
+const timings: Timing[] = [
+  // Congelados
+  { categoria: 'Congelados', alimento: 'Patatas fritas congeladas', emoji: '🍟', temp: 200, min: 18, max: 20, accion: 'agitar', consejo: 'No hace falta aceite; agita la cesta cada 5 minutos.' },
+  { categoria: 'Congelados', alimento: 'Croquetas congeladas', emoji: '🧆', temp: 200, min: 10, max: 12, accion: 'voltear', consejo: 'Pulveriza un toque de aceite para que doren mejor.' },
+  { categoria: 'Congelados', alimento: 'Nuggets de pollo', emoji: '🍗', temp: 200, min: 8, max: 10, accion: 'voltear', consejo: 'Colócalos en una sola capa, sin apilar.' },
+  { categoria: 'Congelados', alimento: 'Varitas de pescado', emoji: '🐟', temp: 200, min: 10, max: 12, accion: 'voltear', consejo: 'Dales la vuelta con cuidado para que no se rompa el rebozado.' },
+  { categoria: 'Congelados', alimento: 'Aros de cebolla', emoji: '🧅', temp: 200, min: 8, max: 10, accion: 'agitar', consejo: 'Cocínalos en tandas pequeñas para que queden crujientes.' },
+  { categoria: 'Congelados', alimento: 'Empanadillas', emoji: '🥟', temp: 190, min: 10, max: 12, accion: 'voltear', consejo: 'Pincela con un poco de aceite para un dorado uniforme.' },
+  { categoria: 'Congelados', alimento: 'Pizza individual', emoji: '🍕', temp: 180, min: 8, max: 10, accion: 'ninguna', consejo: 'Usa papel de airfryer perforado para evitar que se pegue.' },
+
+  // Patatas y verduras
+  { categoria: 'Patatas y verduras', alimento: 'Patatas naturales', emoji: '🥔', temp: 190, min: 20, max: 25, accion: 'agitar', consejo: 'Remójalas 30 min en agua, sécalas bien y añade una cucharada de aceite.' },
+  { categoria: 'Patatas y verduras', alimento: 'Boniato en bastones', emoji: '🍠', temp: 190, min: 15, max: 18, accion: 'agitar', consejo: 'Córtalos del mismo grosor para que se hagan a la vez.' },
+  { categoria: 'Patatas y verduras', alimento: 'Verduras variadas', emoji: '🥕', temp: 180, min: 12, max: 15, accion: 'agitar', consejo: 'Corta en trozos de tamaño similar.' },
+  { categoria: 'Patatas y verduras', alimento: 'Brócoli o coliflor', emoji: '🥦', temp: 190, min: 10, max: 12, accion: 'agitar', consejo: 'Sécalo bien antes de aliñar para que no se cueza al vapor.' },
+  { categoria: 'Patatas y verduras', alimento: 'Calabacín en rodajas', emoji: '🥒', temp: 190, min: 10, max: 12, accion: 'voltear', consejo: 'Sala al final; la sal antes suelta agua.' },
+  { categoria: 'Patatas y verduras', alimento: 'Espárragos verdes', emoji: '🌿', temp: 190, min: 6, max: 8, accion: 'agitar', consejo: 'Con un hilo de aceite y sal gorda al terminar.' },
+  { categoria: 'Patatas y verduras', alimento: 'Pimientos enteros', emoji: '🫑', temp: 200, min: 15, max: 20, accion: 'voltear', consejo: 'Déjalos tapados 10 min al sacarlos para pelarlos fácil.' },
+  { categoria: 'Patatas y verduras', alimento: 'Garbanzos crujientes', emoji: '🫘', temp: 190, min: 12, max: 15, accion: 'agitar', consejo: 'Bien escurridos y secos; sazona al salir.' },
+
+  // Carnes
+  { categoria: 'Carnes', alimento: 'Pechuga de pollo', emoji: '🍗', temp: 190, min: 15, max: 18, accion: 'voltear', consejo: 'Pincela con aceite para que no se reseque.' },
+  { categoria: 'Carnes', alimento: 'Muslos de pollo', emoji: '🍗', temp: 190, min: 25, max: 30, accion: 'voltear', consejo: 'Piel hacia abajo primero; la piel queda crujiente.' },
+  { categoria: 'Carnes', alimento: 'Alitas de pollo', emoji: '🍖', temp: 200, min: 20, max: 22, accion: 'voltear', consejo: 'Dales la vuelta a mitad de tiempo.' },
+  { categoria: 'Carnes', alimento: 'Lomo o chuletas de cerdo', emoji: '🥩', temp: 190, min: 12, max: 15, accion: 'voltear', consejo: 'Deja reposar 2 minutos antes de cortar.' },
+  { categoria: 'Carnes', alimento: 'Hamburguesas', emoji: '🍔', temp: 190, min: 10, max: 12, accion: 'voltear', consejo: 'Haz un hueco en el centro para que no se abomben.' },
+  { categoria: 'Carnes', alimento: 'Salchichas', emoji: '🌭', temp: 180, min: 8, max: 10, accion: 'agitar', consejo: 'Pínchalas ligeramente para que no revienten.' },
+  { categoria: 'Carnes', alimento: 'Bacon', emoji: '🥓', temp: 180, min: 6, max: 8, accion: 'voltear', consejo: 'Vigílalo al final; pasa de crujiente a quemado rápido.' },
+
+  // Pescado y marisco
+  { categoria: 'Pescado y marisco', alimento: 'Salmón (lomos)', emoji: '🍣', temp: 185, min: 10, max: 12, accion: 'ninguna', consejo: 'Colócalo con la piel hacia abajo.' },
+  { categoria: 'Pescado y marisco', alimento: 'Merluza (lomos)', emoji: '🐟', temp: 180, min: 10, max: 12, accion: 'ninguna', consejo: 'Sécala bien y añade un hilo de aceite y limón al servir.' },
+  { categoria: 'Pescado y marisco', alimento: 'Gambas', emoji: '🦐', temp: 180, min: 6, max: 8, accion: 'agitar', consejo: 'Se hacen en nada: pasadas quedan gomosas.' },
+
+  // Otros
+  { categoria: 'Otros', alimento: 'Huevos duros', emoji: '🥚', temp: 150, min: 12, max: 15, accion: 'ninguna', consejo: 'Sin aceite ni agua; al sacarlos, pásalos por agua fría.' },
+  { categoria: 'Otros', alimento: 'Tostadas de pan', emoji: '🍞', temp: 180, min: 3, max: 4, accion: 'voltear', consejo: 'Usa rejilla o cesta; el pan ligero vuela con el aire.' },
+  { categoria: 'Otros', alimento: 'Magdalenas', emoji: '🧁', temp: 160, min: 12, max: 15, accion: 'ninguna', consejo: 'Usa moldes de silicona o papel apto para airfryer.' },
+];
+
+const categorias = ['Todos', ...Array.from(new Set(timings.map((t) => t.categoria)))];
+
+const norm = (s: string) =>
+  s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+const tempClass = (t: number) =>
+  t >= 200
+    ? 'bg-red-100 text-red-800'
+    : t >= 185
+      ? 'bg-orange-100 text-orange-800'
+      : 'bg-amber-100 text-amber-800';
+
+const accionInfo: Record<Accion, { label: string; icon: string; cls: string }> = {
+  agitar: { label: 'Agitar la cesta', icon: '🔄', cls: 'bg-sky-50 text-sky-700' },
+  voltear: { label: 'Dar la vuelta', icon: '↩️', cls: 'bg-violet-50 text-violet-700' },
+  ninguna: { label: 'Sin mover', icon: '✋', cls: 'bg-slate-100 text-slate-600' },
+};
+
+const items = timings.map((t, i) => ({
+  ...t,
+  id: String(i),
+  tiempo: `${t.min}-${t.max} min`,
+  search: norm(`${t.alimento} ${t.categoria} ${t.consejo}`),
+}));
+---
+
+<Layout title="Tabla de Tiempos y Temperaturas Airfryer - Aire Recetas">
+  <Header />
+  <main class="mx-auto max-w-5xl px-4 py-12 sm:px-6">
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-black text-slate-900 sm:text-4xl">Tabla de Tiempos y Temperaturas Airfryer</h1>
+      <p class="text-slate-500 mt-2">Guía rápida de cocción para preparar cualquier ingrediente a la perfección.</p>
+    </div>
+
+    <!-- Buscador y filtros -->
+    <div class="space-y-4 mb-6">
+      <div>
+        <label for="search" class="sr-only">Buscar alimento</label>
+        <input
+          id="search"
+          type="search"
+          placeholder="Busca un alimento: patatas, salmón, croquetas…"
+          autocomplete="off"
+          class="w-full rounded-xl border border-slate-200 bg-white p-3 text-slate-800 shadow-sm focus:ring-2 focus:ring-orange-500 focus:outline-none"
+        />
+      </div>
+
+      <div class="flex flex-wrap gap-2" role="group" aria-label="Filtrar por categoría">
+        {categorias.map((c, i) => (
+          <button
+            type="button"
+            data-chip={c}
+            aria-pressed={i === 0 ? 'true' : 'false'}
+            class="chip rounded-full border px-4 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+          >
+            {c}
+          </button>
+        ))}
+      </div>
+
+      <p id="count" class="text-xs text-slate-500" aria-live="polite"></p>
+    </div>
+
+    <!-- Tabla (escritorio) -->
+    <div class="hidden sm:block overflow-hidden bg-white rounded-2xl border border-slate-200 shadow-sm">
+      <table class="w-full text-left border-collapse">
+        <thead>
+          <tr class="bg-orange-50 border-b border-slate-200 text-orange-900 text-xs uppercase font-extrabold">
+            <th scope="col" class="p-4">Alimento</th>
+            <th scope="col" class="p-4">Temperatura</th>
+            <th scope="col" class="p-4">Tiempo</th>
+            <th scope="col" class="p-4">Acción</th>
+            <th scope="col" class="p-4">Consejo</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-slate-100 text-sm text-slate-700">
+          {items.map((t) => (
+            <tr
+              data-item
+              data-id={t.id}
+              data-categoria={t.categoria}
+              data-search={t.search}
+              class="hover:bg-slate-50 transition"
+            >
+              <td class="p-4">
+                <div class="font-bold text-slate-900"><span aria-hidden="true">{t.emoji}</span> {t.alimento}</div>
+                <div class="text-xs text-slate-400">{t.categoria}</div>
+              </td>
+              <td class="p-4">
+                <span class={`font-bold px-2 py-1 rounded-md text-xs ${tempClass(t.temp)}`}>{t.temp}°C</span>
+              </td>
+              <td class="p-4 font-semibold text-slate-800 whitespace-nowrap">{t.tiempo}</td>
+              <td class="p-4">
+                <span class={`inline-flex items-center gap-1 px-2 py-1 rounded-md text-xs font-semibold whitespace-nowrap ${accionInfo[t.accion].cls}`}>
+                  <span aria-hidden="true">{accionInfo[t.accion].icon}</span>{accionInfo[t.accion].label}
+                </span>
+              </td>
+              <td class="p-4 text-slate-500 text-xs">{t.consejo}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Tarjetas (móvil) -->
+    <div class="sm:hidden space-y-3">
+      {items.map((t) => (
+        <article
+          data-item
+          data-id={t.id}
+          data-categoria={t.categoria}
+          data-search={t.search}
+          class="bg-white rounded-2xl border border-slate-200 p-4 shadow-sm"
+        >
+          <div class="flex items-start justify-between gap-3">
+            <div>
+              <h2 class="font-bold text-slate-900"><span aria-hidden="true">{t.emoji}</span> {t.alimento}</h2>
+              <p class="text-xs text-slate-400">{t.categoria}</p>
+            </div>
+            <span class={`shrink-0 font-bold px-2 py-1 rounded-md text-xs ${tempClass(t.temp)}`}>{t.temp}°C</span>
+          </div>
+          <div class="mt-3 flex flex-wrap items-center gap-2 text-sm">
+            <span class="font-semibold text-slate-800">⏱ {t.tiempo}</span>
+            <span class={`inline-flex items-center gap-1 px-2 py-1 rounded-md text-xs font-semibold ${accionInfo[t.accion].cls}`}>
+              <span aria-hidden="true">{accionInfo[t.accion].icon}</span>{accionInfo[t.accion].label}
+            </span>
+          </div>
+          <p class="mt-2 text-xs text-slate-500">{t.consejo}</p>
+        </article>
+      ))}
+    </div>
+
+    <!-- Sin resultados -->
+    <div id="empty" class="hidden text-center bg-white rounded-2xl border border-dashed border-slate-300 p-10">
+      <p class="font-bold text-slate-800">No encontramos ese alimento</p>
+      <p class="text-sm text-slate-500 mt-1">Prueba con otra palabra o quita el filtro de categoría.</p>
+      <button id="reset" type="button" class="mt-4 rounded-full bg-orange-500 px-5 py-2 text-sm font-bold text-white hover:bg-orange-600 transition">
+        Ver todos los alimentos
+      </button>
+    </div>
+
+    <!-- Leyenda y notas -->
+    <section class="mt-10 grid gap-4 sm:grid-cols-2">
+      <div class="bg-orange-50 border border-orange-200 rounded-2xl p-5">
+        <h2 class="text-xs uppercase tracking-wider font-extrabold text-orange-800">Consejos generales</h2>
+        <ul class="mt-3 space-y-2 text-sm text-orange-900 list-disc pl-5">
+          <li>Precalienta 3-5 minutos para resultados más crujientes.</li>
+          <li>No llenes la cesta: el aire tiene que circular.</li>
+          <li>Seca bien los alimentos antes de cocinarlos.</li>
+          <li>Con poca cantidad, los tiempos se acortan.</li>
+        </ul>
+      </div>
+      <div class="bg-white border border-slate-200 rounded-2xl p-5">
+        <h2 class="text-xs uppercase tracking-wider font-extrabold text-slate-700">Leyenda</h2>
+        <ul class="mt-3 space-y-2 text-sm text-slate-600">
+          <li>🔄 <strong>Agitar:</strong> sacude la cesta a mitad de cocción.</li>
+          <li>↩️ <strong>Dar la vuelta:</strong> gira cada pieza a mitad de tiempo.</li>
+          <li>✋ <strong>Sin mover:</strong> déjalo tal cual hasta el final.</li>
+        </ul>
+        <p class="mt-3 text-xs text-slate-400">Los tiempos son orientativos y varían según el modelo de airfryer, el grosor y la cantidad.</p>
+      </div>
+    </section>
+
+    <p class="mt-8 text-center text-sm text-slate-500">
+      ¿Tienes una receta de horno? Usa la <a href="/calculadora-horno-airfryer" class="font-bold text-orange-600 hover:underline">calculadora de horno a airfryer</a>.
+    </p>
+  </main>
+
+  <style>
+    .chip[aria-pressed='true'] {
+      background-color: rgb(249 115 22);
+      border-color: rgb(249 115 22);
+      color: white;
+    }
+    .chip[aria-pressed='false'] {
+      background-color: white;
+      border-color: rgb(226 232 240);
+      color: rgb(71 85 105);
+    }
+    .chip[aria-pressed='false']:hover {
+      border-color: rgb(249 115 22);
+      color: rgb(194 65 12);
+    }
+  </style>
+
+  <script>
+    const input = document.getElementById('search') as HTMLInputElement;
+    const chips = document.querySelectorAll<HTMLButtonElement>('[data-chip]');
+    const items = document.querySelectorAll<HTMLElement>('[data-item]');
+    const count = document.getElementById('count');
+    const empty = document.getElementById('empty');
+    const reset = document.getElementById('reset');
+
+    let categoria = 'Todos';
+
+    const norm = (s: string) =>
+      s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+    function apply() {
+      const q = norm(input.value.trim());
+      const visibles = new Set<string>();
+
+      items.forEach((el) => {
+        const okCat = categoria === 'Todos' || el.dataset.categoria === categoria;
+        const okQuery = !q || (el.dataset.search ?? '').includes(q);
+        const show = okCat && okQuery;
+        el.classList.toggle('hidden', !show);
+        if (show && el.dataset.id) visibles.add(el.dataset.id);
+      });
+
+      const n = visibles.size;
+      if (count) count.textContent = `${n} ${n === 1 ? 'alimento' : 'alimentos'}`;
+      empty?.classList.toggle('hidden', n > 0);
+    }
+
+    function setCategoria(value: string) {
+      categoria = value;
+      chips.forEach((chip) =>
+        chip.setAttribute('aria-pressed', String(chip.dataset.chip === value))
+      );
+      apply();
+    }
+
+    chips.forEach((chip) =>
+      chip.addEventListener('click', () => setCategoria(chip.dataset.chip ?? 'Todos'))
+    );
+    input.addEventListener('input', apply);
+    reset?.addEventListener('click', () => {
+      input.value = '';
+      setCategoria('Todos');
+      input.focus();
+    });
+
+    apply();
+  </script>
+</Layout>

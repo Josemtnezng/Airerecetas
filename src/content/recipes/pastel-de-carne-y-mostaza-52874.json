@@ -1,0 +1,36 @@
+{
+  "id": "52874",
+  "slug": "pastel-de-carne-y-mostaza-52874",
+  "title": "Pastel de carne y mostaza",
+  "description": "Receta fácil y saludable de pastel de carne y mostaza preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/52874.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1Kg Carne de res",
+    "2 cucharadas de harina natural",
+    "2 cucharadas de aceite de colza",
+    "200 ml de vino tinto",
+    "400 ml de caldo de ternera",
+    "1 cebolla tierna finamente rebanada",
+    "2 tazas de zanahorias picadas",
+    "3 ramitas de tomillo",
+    "2 cucharadas de mostaza",
+    "2 yemas grandes de campo",
+    "Hojaldre",
+    "Judías verdes ",
+    "25 g de mantequilla",
+    "una pizca de sal",
+    "Una pizca de pimienta"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Pastel de carne y mostaza.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

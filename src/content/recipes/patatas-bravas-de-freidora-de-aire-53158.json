@@ -1,0 +1,29 @@
+{
+  "id": "53158",
+  "slug": "patatas-bravas-de-freidora-de-aire-53158",
+  "title": "Patatas bravas de freidora de aire",
+  "description": "Receta fácil y saludable de patatas bravas de freidora de aire preparada en freidora de aire.",
+  "category": "Verduras",
+  "imageUrl": "/images/recipes/53158.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "temperatureCelsius": 180,
+  "servings": 4,
+  "ingredients": [
+    "PATATAS",
+    "3 cucharadas de aceite de oliva",
+    "•\t1 cebolla picada",
+    "1 diente de ajo triturado pelado",
+    "1 cucharadita de pimentón",
+    "1 cucharadita de puré de tomate",
+    "225 g de tomates enlatados",
+    "Para servir hojas de albahaca"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Patatas bravas de freidora de aire.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 180°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 15 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

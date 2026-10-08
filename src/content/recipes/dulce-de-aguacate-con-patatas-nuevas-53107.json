@@ -1,0 +1,30 @@
+{
+  "id": "53107",
+  "slug": "dulce-de-aguacate-con-patatas-nuevas-53107",
+  "title": "Dulce de aguacate con patatas nuevas",
+  "description": "Receta fácil y saludable de dulce de aguacate con patatas nuevas preparada en freidora de aire.",
+  "category": "Verduras",
+  "imageUrl": "/images/recipes/53107.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "temperatureCelsius": 180,
+  "servings": 4,
+  "ingredients": [
+    "3 Aguacate grande",
+    "200 g de yogur natural",
+    "Ralladura y jugo de 1 lima",
+    "El zumo de medio limón",
+    "1,25kg Baby New Potatoes",
+    "2 cucharadas de aceite de oliva",
+    "1 cu de guindilla roja en polvo",
+    "1 cucharadita de semillas de comino",
+    "200g Tortillas"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Dulce de aguacate con patatas nuevas.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 180°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 15 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

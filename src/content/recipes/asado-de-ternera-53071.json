@@ -1,0 +1,35 @@
+{
+  "id": "53071",
+  "slug": "asado-de-ternera-53071",
+  "title": "Asado de ternera",
+  "description": "Receta fácil y saludable de asado de ternera preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53071.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1,5 kg de carne de vacuno",
+    "1 Concentrado de caldo de carne",
+    "8 onzas de puré de tomate",
+    "                     \t-3 tazas de agua",
+    "• 6 cdas de salsa de soja",
+    "1 cucharada de vinagre de vino blanco",
+    "2 cucharadas de pimienta",
+    "4 hojas de laurel",
+    "1/2 de limón",
+    "2 cucharadas de salsa de tomate",
+    "3 cucharadas de mantequilla",
+    "1/2 taza de aceite de oliva",
+    "•\t1 cebolla picada",
+    "4 dientes de ajo"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Asado de ternera.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

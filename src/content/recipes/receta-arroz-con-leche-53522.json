@@ -1,0 +1,30 @@
+{
+  "id": "53522",
+  "slug": "receta-arroz-con-leche-53522",
+  "title": "Receta Arroz con Leche",
+  "description": "Receta fácil y saludable de receta arroz con leche preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53522.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "1 taza de arroz",
+    "trozos de soja",
+    "2 tazas de agua",
+    "4 tazas de leche",
+    "una pizca de sal",
+    "2 cucharadas de mantequilla",
+    "2 cucharadas de extracto de vainilla",
+    "200 g de azúcar",
+    "12 onzas de leche condensada"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Receta Arroz con Leche.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

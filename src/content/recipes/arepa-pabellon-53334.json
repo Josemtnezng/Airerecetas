@@ -1,0 +1,29 @@
+{
+  "id": "53334",
+  "slug": "arepa-pabellon-53334",
+  "title": "Arepa Pabellón",
+  "description": "Receta fácil y saludable de arepa pabellón preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53334.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "2 arepas de maíz rellenas de queso mozarella",
+    "1 plátano frito maduro",
+    "1 lata de frijoles negros",
+    "SALSA PICO DE GALLO",
+    "2 kg de carne rallada",
+    "1 tomate picado",
+    "una pizca de sal",
+    "Una pizca de pimienta"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Arepa Pabellón.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

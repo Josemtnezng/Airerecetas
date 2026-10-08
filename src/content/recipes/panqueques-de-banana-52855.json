@@ -1,0 +1,28 @@
+{
+  "id": "52855",
+  "slug": "panqueques-de-banana-52855",
+  "title": "Panqueques de banana",
+  "description": "Receta fácil y saludable de panqueques de banana preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/52855.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "1 plátano grande",
+    "2 huevos medianos",
+    "polvo para hornear pellizcado",
+    "extracto de vainilla spinkling",
+    "1 cucharadita de aceite",
+    "Nueces pacanas",
+    "125 g de frambuesas"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Panqueques de banana.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

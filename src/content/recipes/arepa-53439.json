@@ -1,0 +1,24 @@
+{
+  "id": "53439",
+  "slug": "arepa-53439",
+  "title": "Arepa",
+  "description": "Receta fácil y saludable de arepa preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53439.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1 cucharadita de sal",
+    "1 taza de harina de maíz",
+    "1 1/4 taza de agua tibia"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Arepa.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

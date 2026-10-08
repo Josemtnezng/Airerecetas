@@ -1,0 +1,33 @@
+{
+  "id": "53329",
+  "slug": "arepa-pelua-53329",
+  "title": "Arepa pelua",
+  "description": "Receta fácil y saludable de arepa pelua preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53329.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "500 g de carne de vacuno",
+    "1 cebolla",
+    "1 pimiento rojo",
+    "2 dientes de ajo",
+    "1 cucharadita de comino",
+    "1/2 cucharadita de orégano",
+    "1 cdta. de pimentón",
+    "1 L de caldo de ternera",
+    "2 1/2 tazas de agua",
+    "una pizca de sal",
+    "200 g de queso",
+    "ACEITE DE OLIVA VIRGEN EXTRA"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Arepa pelua.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "52767",
+  "slug": "tarta-de-bakewell-52767",
+  "title": "tarta de Bakewell",
+  "description": "Receta fácil y saludable de tarta de bakewell preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/52767.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "175 g/6 oz de harina normal",
+    "75 g/2½oz de mantequilla refrigerada",
+    "3 cdas. de agua fría",
+    "1 cucharada de mermelada de frambuesa",
+    "125 g/4½oz de mantequilla",
+    "125 g/4½oz de azúcar glas",
+    "125 g/4½oz de almendras molidas",
+    "1 huevo de corral, batido",
+    "½ cucharadita de extracto de almendra",
+    "50 g/1¾oz de almendras en copos"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para tarta de Bakewell.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

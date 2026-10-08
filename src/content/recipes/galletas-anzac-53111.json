@@ -1,0 +1,28 @@
+{
+  "id": "53111",
+  "slug": "galletas-anzac-53111",
+  "title": "Galletas Anzac",
+  "description": "Receta fácil y saludable de galletas anzac preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53111.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "85 g de avena para gachas",
+    "coco desecado",
+    "100 gr. de harina preparada",
+    "azúcar glas",
+    "100 g de mantequilla",
+    "1 cucharada de jarabe dorado",
+    "1 cucharadita de bicarbonato de sodio"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Galletas Anzac.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

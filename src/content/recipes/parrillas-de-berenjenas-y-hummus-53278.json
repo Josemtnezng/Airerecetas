@@ -1,0 +1,30 @@
+{
+  "id": "53278",
+  "slug": "parrillas-de-berenjenas-y-hummus-53278",
+  "title": "Parrillas de berenjenas y hummus",
+  "description": "Receta fácil y saludable de parrillas de berenjenas y hummus preparada en freidora de aire.",
+  "category": "Verduras",
+  "imageUrl": "/images/recipes/53278.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "temperatureCelsius": 180,
+  "servings": 4,
+  "ingredients": [
+    "2 berenjena",
+    "2 cucharadas (2ml)     de aceite vegetal",
+    "3 rebanadas de pan fino",
+    "300 g de hummus",
+    "100 g de nueces",
+    "40 g de perejil",
+    "200 g de tomates cherry",
+    "El zumo de medio limón",
+    "ACEITE DE OLIVA VIRGEN EXTRA"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Parrillas de berenjenas y hummus.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 180°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 15 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

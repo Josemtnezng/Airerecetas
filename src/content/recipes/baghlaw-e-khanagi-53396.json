@@ -1,0 +1,30 @@
+{
+  "id": "53396",
+  "slug": "baghlaw-e-khanagi-53396",
+  "title": "Baghlaw-e-Khanagi",
+  "description": "Receta fácil y saludable de baghlaw-e-khanagi preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53396.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "600 g de harina",
+    "3 huevos",
+    "450 ml de leche",
+    "75 ml de aceite vegetal",
+    "1 cucharadita de polvo de hornear&#10;",
+    "• Crushed walnuts",
+    "10 g de cardamomo",
+    "300 gr Azúcar",
+    "1 l de agua"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Baghlaw-e-Khanagi.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

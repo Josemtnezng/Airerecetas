@@ -1,0 +1,30 @@
+{
+  "id": "53103",
+  "slug": "barramundi-con-especias-marroquies-53103",
+  "title": "Barramundi con especias marroquíes",
+  "description": "Receta fácil y saludable de barramundi con especias marroquíes preparada en freidora de aire.",
+  "category": "Pescados",
+  "imageUrl": "/images/recipes/53103.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 185,
+  "servings": 4,
+  "ingredients": [
+    "2 barramundi de 400 g",
+    "1/2 cucharadita de comino molido",
+    "1/2 cucharadita de cilantro",
+    "Pellizco de pimentón",
+    "Una pizca de chile en polvo ",
+    "1/2 diente de ajo",
+    "El zumo de un limón",
+    "5 cucharadas de aceite de oliva",
+    "Ramo de cilantro"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Barramundi con especias marroquíes.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 185°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "53440",
+  "slug": "balchi-di-pisca-53440",
+  "title": "Balchi di Pisca",
+  "description": "Receta fácil y saludable de balchi di pisca preparada en freidora de aire.",
+  "category": "Pescados",
+  "imageUrl": "/images/recipes/53440.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 185,
+  "servings": 4,
+  "ingredients": [
+    "1 bacalao de sal",
+    "3 patatas medianas",
+    "1 Tomate.",
+    "1 pimiento verde",
+    "Media cebolla mediana",
+    "1 diente de ajo pelado en rodajas",
+    "1/2 cucharadita de salsa Tobasco",
+    "Dash Nutmeg",
+    "Para probar la sal",
+    "Para probar la pimienta",
+    "1 unid Huevo"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Balchi di Pisca.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 185°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "53239",
+  "slug": "ensalada-de-gambas-bang-bang-53239",
+  "title": "Ensalada de gambas Bang bang",
+  "description": "Receta fácil y saludable de ensalada de gambas bang bang preparada en freidora de aire.",
+  "category": "Pescados",
+  "imageUrl": "/images/recipes/53239.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 185,
+  "servings": 4,
+  "ingredients": [
+    "Fideos de arroz",
+    "3 cucharadas de crema de cacahuate",
+    "4 cucharadas de leche de coco",
+    "3  cucharadas de salsa de chile dulce",
+    "3 cebolletas finas en rodajas",
+    "Rodajas de pepino",
+    "Fríjoles nacidos",
+    "200 g de gambas"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Ensalada de gambas Bang bang.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 185°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

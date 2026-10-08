@@ -1,0 +1,26 @@
+{
+  "id": "53099",
+  "slug": "hamburguesas-australianas-53099",
+  "title": "Hamburguesas australianas",
+  "description": "Receta fácil y saludable de hamburguesas australianas preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53099.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "500 g de carne magra picada",
+    "100 g de remolacha cocida",
+    "2 panes Naan pequeños",
+    "Cohete de 50 g",
+    "4 cucharadas de crema agria y salsa de cebollino"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Hamburguesas australianas.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

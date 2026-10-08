@@ -1,0 +1,28 @@
+{
+  "id": "53575",
+  "slug": "pay-de-manzana-53575",
+  "title": "Pay de manzana ",
+  "description": "Receta fácil y saludable de pay de manzana  preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53575.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "4. Manzanas",
+    "2. Huevos",
+    "125 ml de azúcar",
+    "1 1/2 tazas de harina",
+    "1/2 cucharadita de sal ",
+    "1 cucharadita de <x id=\"2\"/>bicarbonato de soda",
+    "250 ml de leche agria"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Pay de manzana .",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "53441",
+  "slug": "banana-den-forno-53441",
+  "title": "Banana den Forno",
+  "description": "Receta fácil y saludable de banana den forno preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53441.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "4 Plátano",
+    "2 cucharadas de canela molida",
+    "3 cucharadas de extracto de vainilla",
+    "200 g de azúcar",
+    "4 tazas de agua"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Banana den Forno.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

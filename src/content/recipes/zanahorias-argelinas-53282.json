@@ -1,0 +1,32 @@
+{
+  "id": "53282",
+  "slug": "zanahorias-argelinas-53282",
+  "title": "Zanahorias argelinas",
+  "description": "Receta fácil y saludable de zanahorias argelinas preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53282.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1 agua fría de la taza del 1/2",
+    "2 libras de zanahorias",
+    "5 cucharadas de aceite de oliva",
+    "1 cucharadita de sal",
+    "1/2 cucharadita de pimienta negra",
+    "1/2 cucharadita de canela molida",
+    "1/2 cucharadita de comino molido",
+    "3 dientes de ajos machacados",
+    "1 cucharadita de tomillo",
+    "1 hoja de laurel",
+    "1 cdta de jugo de limón"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Zanahorias argelinas.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

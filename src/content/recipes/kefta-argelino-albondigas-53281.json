@@ -1,0 +1,29 @@
+{
+  "id": "53281",
+  "slug": "kefta-argelino-albondigas-53281",
+  "title": "Kefta argelino (albóndigas)",
+  "description": "Receta fácil y saludable de kefta argelino (albóndigas) preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53281.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1 libra de carne molida",
+    "2 dientes de ajo machacados",
+    "1/2 taza de cebolla",
+    "Para probar la sal",
+    "Para probar la pimienta",
+    "3 tomates ciruela",
+    "• 1 cucharadita de perejil",
+    "1/2 taza de agua"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Kefta argelino (albóndigas).",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

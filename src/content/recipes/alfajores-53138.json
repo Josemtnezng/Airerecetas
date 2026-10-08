@@ -1,0 +1,29 @@
+{
+  "id": "53138",
+  "slug": "alfajores-53138",
+  "title": "Alfajores",
+  "description": "Receta fácil y saludable de alfajores preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53138.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "harina común",
+    "200 g de almidón de maíz",
+    "200g de mantequilla",
+    "100 g de azúcar",
+    "2 yemas de huevo",
+    "1 cucharadita de ralladura de limón",
+    "Dulce de leche ",
+    "Espolvorear coco desecado"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Alfajores.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

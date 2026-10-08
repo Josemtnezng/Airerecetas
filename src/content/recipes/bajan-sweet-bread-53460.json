@@ -1,0 +1,32 @@
+{
+  "id": "53460",
+  "slug": "bajan-sweet-bread-53460",
+  "title": "Bajan Sweet Bread",
+  "description": "Receta fácil y saludable de bajan sweet bread preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53460.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "600 ml de leche de coco",
+    "1/2 taza de mantequilla derretida",
+    "4 tazas de harina",
+    "1 cucharada de manteca",
+    "1 cuchara sopera de levadura en polvo",
+    "1 cucharadita de sal",
+    "3/4 taza de azúcar",
+    "1 taza de pasas",
+    "Huevo batido 1",
+    "1 1/4 taza de leche evaporada",
+    "1 cucharadita de esencia de almendra"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Bajan Sweet Bread.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "53456",
+  "slug": "receta-de-pan-de-sal-de-bajan-53456",
+  "title": "Receta de pan de sal de Bajan",
+  "description": "Receta fácil y saludable de receta de pan de sal de bajan preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53456.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "2 tinas Levadura",
+    "2 cucharaditas de azúcar",
+    "1 cucharadita de sal",
+    "2 cucharadas (2ml)     de aceite vegetal",
+    "6 tazas de harina",
+    "2 1/2 tazas de agua"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Receta de pan de sal de Bajan.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

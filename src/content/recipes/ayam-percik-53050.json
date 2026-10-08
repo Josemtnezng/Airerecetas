@@ -1,0 +1,34 @@
+{
+  "id": "53050",
+  "slug": "ayam-percik-53050",
+  "title": "Ayam Percik",
+  "description": "Receta fácil y saludable de ayam percik preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53050.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 22,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "Muslos de pollo",
+    "16 Chalotes",
+    "1 1/2 jengibre",
+    "diente de ajo",
+    "Pimienta de cayena",
+    "2 cucharadas de cúrcuma",
+    "1 1/2 Comino",
+    "1 1/2 Cilantro",
+    "1 1/2 Hinojo",
+    "2 cucharadas de pasta de tamarindo",
+    "1 lata de leche de coco",
+    "1 cucharadita de azúcar ",
+    "1 taza de agua"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Ayam Percik.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 22 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

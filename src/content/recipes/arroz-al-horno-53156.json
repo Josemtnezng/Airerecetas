@@ -1,0 +1,36 @@
+{
+  "id": "53156",
+  "slug": "arroz-al-horno-53156",
+  "title": "Arroz al horno",
+  "description": "Receta fácil y saludable de arroz al horno preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53156.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "2 cucharadas de aceite de oliva extra virgen",
+    "800 g de rodajas de barriga de cerdo",
+    "Morcilla",
+    "100 g de tocino lardon",
+    "•\t1 cebolla picada",
+    "pimiento rojo",
+    "1 tomate ciruela picado",
+    "diente de ajo",
+    "4 cucharaditas de pimentón",
+    "1/2 cucharadita de copos de chile",
+    "200 g de judías blancas secas",
+    "1 1/2 L de caldo de pollo",
+    "6 partes de tomillo",
+    "375 g de arroz con paella",
+    "Jugo de 1 limón"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para arroz al horno.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

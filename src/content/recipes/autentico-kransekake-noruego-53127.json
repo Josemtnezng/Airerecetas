@@ -1,0 +1,27 @@
+{
+  "id": "53127",
+  "slug": "autentico-kransekake-noruego-53127",
+  "title": "Auténtico kransekake noruego",
+  "description": "Receta fácil y saludable de auténtico kransekake noruego preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/53127.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "3 tazas de almendras",
+    "clara de huevo",
+    "4 tazas de azúcar en polvo",
+    "2 tazas de azúcar en polvo",
+    "1 clara de huevo",
+    "1/2 cucharadita de zumo de limón"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Auténtico kransekake noruego.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

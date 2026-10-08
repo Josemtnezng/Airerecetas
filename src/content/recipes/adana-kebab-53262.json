@@ -1,0 +1,26 @@
+{
+  "id": "53262",
+  "slug": "adana-kebab-53262",
+  "title": "Adana kebab",
+  "description": "Receta fácil y saludable de adana kebab preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53262.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 195,
+  "servings": 4,
+  "ingredients": [
+    "2 pimientos romanos grandes",
+    "800 g de carne picada de cordero",
+    "3  cucharadas de pasta de pimiento rojo",
+    "1 cucharada de Pul Biber",
+    "3  cucharadas de aceite de girasol"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Adana kebab.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 195°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

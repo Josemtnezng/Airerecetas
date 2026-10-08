@@ -1,0 +1,34 @@
+---
+// src/components/Header.astro
+---
+
+<header class="border-b border-slate-100 bg-white sticky top-0 z-50 shadow-sm">
+  <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6">
+    
+    <!-- LOGO -->
+    <a href="/" class="flex items-center gap-2 font-black text-xl text-slate-900">
+      <span class="text-2xl">⚡</span>
+      <span>Aire<span class="text-orange-600">Recetas</span></span>
+    </a>
+
+    <!-- NAVEGACIÓN PRINCIPAL EN CASTELLANO -->
+    <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600">
+      <a href="/" class="hover:text-orange-600 transition">Inicio</a>
+      <a href="/tabla-tiempos" class="hover:text-orange-600 transition">Tabla de Tiempos ⏱️</a>
+      <a href="/guias" class="hover:text-orange-600 transition">Guías de Uso 📖</a>
+      <a href="/calculadora" class="hover:text-orange-600 transition">Calculadora Airfryer 🧮</a>
+      <a href="/contacto" class="hover:text-orange-600 transition">Contacto</a>
+    </nav>
+
+    <!-- BOTÓN DE BÚSQUEDA RÁPIDA O MÓVIL -->
+    <div class="flex items-center gap-3">
+      <a 
+        href="/#explorar" 
+        class="bg-orange-600 text-white text-xs font-bold px-4 py-2 rounded-xl shadow-sm hover:bg-orange-700 transition"
+      >
+        Buscar Recetas
+      </a>
+    </div>
+
+  </div>
+</header>

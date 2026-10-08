@@ -1,0 +1,436 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+
+type Estado = 'ok' | 'ojo' | 'no';
+
+interface Item {
+  titulo?: string;
+  texto: string;
+  estado?: Estado;
+}
+
+interface Seccion {
+  titulo: string;
+  tipo: 'pasos' | 'lista' | 'estado';
+  items: Item[];
+}
+
+interface Guia {
+  id: string;
+  emoji: string;
+  titulo: string;
+  desc: string;
+  lectura: string;
+  nivel: string;
+  resumen: string[];
+  secciones: Seccion[];
+  tip: string;
+  relacionado?: { href: string; texto: string };
+}
+
+const estadoInfo: Record<Estado, { label: string; icon: string; cls: string }> = {
+  ok: { label: 'Seguro', icon: '✅', cls: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  ojo: { label: 'Con cuidado', icon: '⚠️', cls: 'bg-amber-50 text-amber-700 border-amber-200' },
+  no: { label: 'Evitar', icon: '⛔', cls: 'bg-red-50 text-red-700 border-red-200' },
+};
+
+const guias: Guia[] = [
+  {
+    id: 'limpieza',
+    emoji: '🧽',
+    titulo: 'Cómo limpiar tu freidora de aire sin estropear el antiadherente',
+    desc: 'Aprende los métodos caseros con bicarbonato y jabón neutro para mantener la cesta impecable sin usar estropajos agresivos.',
+    lectura: '4 min',
+    nivel: 'Fácil',
+    resumen: [
+      'Limpia siempre con el aparato desenchufado y frío (o apenas templado).',
+      'Agua tibia, jabón neutro y esponja suave bastan en el día a día.',
+      'El bicarbonato es tu aliado para la grasa pegada: sin fuerza y sin abrasivos.',
+    ],
+    secciones: [
+      {
+        titulo: 'Limpieza rápida tras cada uso',
+        tipo: 'pasos',
+        items: [
+          { titulo: 'Desenchufa y deja que se temple.', texto: 'Espera hasta que puedas tocar la cesta sin quemarte.' },
+          { titulo: 'Saca la cesta y la bandeja.', texto: 'Vacía los restos de comida y la grasa antes de mojarlas.' },
+          { titulo: 'Lava con suavidad.', texto: 'Agua tibia, unas gotas de jabón neutro y una esponja suave o un paño de microfibra.' },
+          { titulo: 'Seca bien.', texto: 'Aclara y seca por completo antes de volver a colocarla; la humedad atrapada deja mal olor.' },
+          { titulo: 'Repasa el interior.', texto: 'Pasa un paño húmedo, bien escurrido, por el hueco donde entra la cesta.' },
+        ],
+      },
+      {
+        titulo: 'Limpieza a fondo con bicarbonato',
+        tipo: 'pasos',
+        items: [
+          { titulo: 'Remojo previo.', texto: 'Llena la cesta con agua caliente y una gota de jabón neutro; déjala 10-15 minutos para ablandar la grasa.' },
+          { titulo: 'Prepara la pasta.', texto: 'Mezcla 2-3 cucharadas de bicarbonato con unas gotas de agua hasta obtener una crema espesa.' },
+          { titulo: 'Aplica y espera.', texto: 'Extiéndela sobre las zonas con grasa pegada y déjala actuar unos 10-15 minutos.' },
+          { titulo: 'Frota sin fuerza.', texto: 'Usa una esponja no abrasiva o un cepillo de cerdas blandas; deja que el bicarbonato haga el trabajo.' },
+          { titulo: 'Aclara y seca.', texto: 'Retira todos los restos de pasta y seca bien antes de guardar.' },
+        ],
+      },
+      {
+        titulo: 'La resistencia y el interior del aparato',
+        tipo: 'lista',
+        items: [
+          { texto: 'Hazlo siempre con el aparato desenchufado y completamente frío.' },
+          { texto: 'Pasa un paño húmedo bien escurrido o un cepillo suave por la resistencia; si tu modelo lo permite, dale la vuelta para llegar mejor.' },
+          { texto: 'Nunca sumerjas el cuerpo del aparato ni le eches agua directamente.' },
+          { texto: 'Si queda olor persistente, limpia el interior con un paño ligeramente humedecido en agua con unas gotas de vinagre blanco y aclara con otro paño limpio.' },
+        ],
+      },
+      {
+        titulo: 'Qué evitar para proteger el antiadherente',
+        tipo: 'estado',
+        items: [
+          { estado: 'no', titulo: 'Estropajos metálicos o fibras verdes duras', texto: 'Rayan el recubrimiento y acortan la vida de la cesta.' },
+          { estado: 'no', titulo: 'Utensilios metálicos dentro de la cesta', texto: 'Cuchillos, tenedores o pinzas metálicas dejan marcas; mejor silicona o madera.' },
+          { estado: 'ojo', titulo: 'Aerosoles de cocina con propelente', texto: 'Pueden dejar residuos pegajosos que degradan el antiadherente. Usa un pulverizador rellenable con tu propio aceite.' },
+          { estado: 'ojo', titulo: 'Lavavajillas', texto: 'Algunas cestas son aptas, otras no. Revisa el manual de tu modelo; lavarla a mano alarga su vida.' },
+          { estado: 'no', titulo: 'Guardarla húmeda', texto: 'Acumula humedad y olores. Sécala y guárdala con la cesta bien colocada.' },
+        ],
+      },
+      {
+        titulo: '¿Cuándo conviene cambiar la cesta?',
+        tipo: 'lista',
+        items: [
+          { texto: 'Si el antiadherente se levanta o se desprende en escamas.' },
+          { texto: 'Si aparecen zonas oxidadas o la cesta se ha deformado.' },
+          { texto: 'Busca siempre el recambio oficial de tu modelo para que encaje y sea seguro.' },
+        ],
+      },
+    ],
+    tip: 'Limpia la cesta cuando esté templada, nunca hirviendo: la grasa aún no se ha endurecido y sale mucho más fácil.',
+  },
+  {
+    id: 'errores',
+    emoji: '⚠️',
+    titulo: 'Los 5 errores más comunes al cocinar en Airfryer',
+    desc: 'Descubre por qué amontonar comida o no precalentar la cesta puede hacer que tus platos pierdan la textura crujiente.',
+    lectura: '5 min',
+    nivel: 'Fácil',
+    resumen: [
+      'El aire necesita espacio para circular: una sola capa y sin amontonar.',
+      'Comida seca + poco aceite = textura crujiente.',
+      'Adapta siempre los tiempos y temperaturas de horno antes de cocinar.',
+    ],
+    secciones: [
+      {
+        titulo: 'Error 1: amontonar la comida',
+        tipo: 'lista',
+        items: [
+          { titulo: 'Qué ocurre.', texto: 'El aire caliente no circula y la comida se cuece al vapor: queda blanda y desigual.' },
+          { titulo: 'Cómo evitarlo.', texto: 'Coloca los alimentos en una sola capa con algo de espacio entre ellos y cocina en tandas. Con patatas o verduras, no llenes la cesta más allá de la mitad o dos tercios.' },
+        ],
+      },
+      {
+        titulo: 'Error 2: no precalentar',
+        tipo: 'lista',
+        items: [
+          { titulo: 'Qué ocurre.', texto: 'Si metes la comida con el aparato frío, tarda más en sellarse por fuera y pierde parte del crujiente.' },
+          { titulo: 'Cómo evitarlo.', texto: 'Precalienta 3-5 minutos a la temperatura de la receta. Si tu modelo tiene función de precalentado, úsala.' },
+        ],
+      },
+      {
+        titulo: 'Error 3: exceso de humedad o de aceite',
+        tipo: 'lista',
+        items: [
+          { titulo: 'Qué ocurre.', texto: 'La comida mojada suelta vapor y no se dora; el exceso de aceite genera humo y sabor a quemado.' },
+          { titulo: 'Cómo evitarlo.', texto: 'Seca los alimentos con papel de cocina y usa solo un hilo o una cucharadita de aceite. Con carnes muy grasas, vacía la grasa de la bandeja a mitad de cocción.' },
+        ],
+      },
+      {
+        titulo: 'Error 4: no agitar ni dar la vuelta',
+        tipo: 'lista',
+        items: [
+          { titulo: 'Qué ocurre.', texto: 'El calor llega más a unas zonas que a otras y quedan partes pálidas y otras demasiado hechas.' },
+          { titulo: 'Cómo evitarlo.', texto: 'Agita la cesta cada 5 minutos con patatas, verduras o alimentos pequeños, y da la vuelta a mitad de tiempo a filetes, hamburguesas o alitas.' },
+        ],
+      },
+      {
+        titulo: 'Error 5: usar tiempos de horno sin adaptarlos',
+        tipo: 'lista',
+        items: [
+          { titulo: 'Qué ocurre.', texto: 'La airfryer cocina más rápido que un horno: lo que pide 30 minutos fuera puede quemarse por fuera y quedar poco hecho por dentro.' },
+          { titulo: 'Cómo evitarlo.', texto: 'Como regla general, baja unos 20°C y reduce el tiempo en torno a un 20%. Revisa el punto un par de minutos antes de que acabe.' },
+        ],
+      },
+      {
+        titulo: 'Checklist antes de cocinar',
+        tipo: 'lista',
+        items: [
+          { texto: 'Cesta limpia y bien colocada.' },
+          { texto: 'Aparato precalentado.' },
+          { texto: 'Comida seca y con poco aceite.' },
+          { texto: 'Una sola capa, sin amontonar.' },
+          { texto: 'Tiempo y temperatura adaptados a la airfryer.' },
+        ],
+      },
+    ],
+    tip: 'Si dudas con un alimento nuevo, empieza con el tiempo mínimo y añade 2 minutos si hace falta. Siempre puedes alargar, pero no deshacer un quemado.',
+    relacionado: { href: '/calculadora-horno-airfryer', texto: 'Adaptar una receta de horno con la calculadora' },
+  },
+  {
+    id: 'accesorios',
+    emoji: '🧰',
+    titulo: '¿Qué accesorios son seguros dentro de la freidora?',
+    desc: 'Guía completa sobre el uso de moldes de silicona, papel vegetal perforado y rejillas metálicas.',
+    lectura: '4 min',
+    nivel: 'Fácil',
+    resumen: [
+      'Silicona alimentaria, papel perforado y rejillas de acero son los accesorios más seguros.',
+      'Nunca dejes papel suelto ni precalientes con papel vacío: puede volar hacia la resistencia.',
+      'Plástico, cartón y papel de cocina no tienen sitio dentro de la freidora.',
+    ],
+    secciones: [
+      {
+        titulo: 'Accesorios seguros y recomendados',
+        tipo: 'estado',
+        items: [
+          { estado: 'ok', titulo: 'Moldes de silicona alimentaria', texto: 'Soportan bien el calor y son perfectos para magdalenas, huevos o flanes. Comprueba la temperatura máxima del fabricante.' },
+          { estado: 'ok', titulo: 'Papel específico para airfryer (perforado)', texto: 'Los agujeros permiten que el aire circule y evitan que la comida se pegue.' },
+          { estado: 'ok', titulo: 'Rejillas y soportes de acero inoxidable', texto: 'Útiles para elevar la comida o cocinar en dos niveles.' },
+          { estado: 'ok', titulo: 'Cerámica o vidrio templado aptos para horno', texto: 'Funcionan bien si caben con espacio alrededor para que el aire circule.' },
+          { estado: 'ok', titulo: 'Brochetas metálicas', texto: 'Las de madera o bambú, mejor remojadas antes para que no se quemen.' },
+        ],
+      },
+      {
+        titulo: 'Accesorios que requieren cuidado',
+        tipo: 'estado',
+        items: [
+          { estado: 'ojo', titulo: 'Papel de aluminio', texto: 'Úsalo en trozos pequeños, sin tapar la base ni las rejillas de aire, y evita alimentos muy ácidos como tomate o cítricos, que reaccionan con el aluminio.' },
+          { estado: 'ojo', titulo: 'Papel vegetal sin perforar', texto: 'Colócalo siempre con la comida encima. Suelto, el aire puede levantarlo hasta la resistencia.' },
+          { estado: 'ojo', titulo: 'Vidrio y cerámica', texto: 'Evita los cambios bruscos de temperatura, como pasar un recipiente de la nevera directo al aparato caliente.' },
+        ],
+      },
+      {
+        titulo: 'Lo que no debes meter',
+        tipo: 'estado',
+        items: [
+          { estado: 'no', titulo: 'Plástico y melamina', texto: 'Se deforman o sueltan sustancias con el calor.' },
+          { estado: 'no', titulo: 'Cartón, servilletas, papel de cocina y papel encerado', texto: 'Pueden arder o salir volando hacia la resistencia.' },
+          { estado: 'no', titulo: 'Recipientes no aptos para horno', texto: 'Si no lo pone en el envase o en el manual, no lo uses.' },
+          { estado: 'no', titulo: 'Metales con bordes afilados sobre el antiadherente', texto: 'Rayan el recubrimiento de la cesta.' },
+        ],
+      },
+      {
+        titulo: 'Cómo usar el papel sin riesgos',
+        tipo: 'pasos',
+        items: [
+          { titulo: 'Precalienta sin papel.', texto: 'Así no hay nada ligero que pueda moverse con el aire.' },
+          { titulo: 'Coloca el papel y la comida a la vez.', texto: 'El peso de los alimentos lo mantiene en su sitio.' },
+          { titulo: 'Que no sobresalga.', texto: 'Ajusta el tamaño al fondo de la cesta sin cubrir los bordes ni las ranuras.' },
+          { titulo: 'Cámbialo cuando se ensucie.', texto: 'Un papel muy tostado o saturado de grasa puede humear.' },
+        ],
+      },
+    ],
+    tip: 'Antes de comprar un accesorio, mide la cesta y deja un par de centímetros libres alrededor para que el aire circule bien.',
+  },
+];
+---
+
+<Layout title="Guías y Consejos Airfryer - Aire Recetas">
+  <Header />
+  <main class="mx-auto max-w-4xl px-4 py-12 sm:px-6">
+    <div class="text-center mb-8">
+      <h1 class="text-3xl font-black text-slate-900 sm:text-4xl">Guías de Uso y Trucos de Cocina</h1>
+      <p class="text-slate-500 mt-2">Sácale el máximo partido a tu electrodoméstico con nuestros tutoriales explicativos.</p>
+    </div>
+
+    <!-- Índice rápido y controles -->
+    <div class="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <nav aria-label="Índice de guías" class="flex flex-wrap gap-2">
+        {guias.map((g) => (
+          <a
+            href={`#${g.id}`}
+            class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm font-semibold text-slate-600 transition hover:border-orange-500 hover:text-orange-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+          >
+            <span aria-hidden="true">{g.emoji}</span> {g.id.charAt(0).toUpperCase() + g.id.slice(1)}
+          </a>
+        ))}
+      </nav>
+      <div class="flex gap-2">
+        <button id="expandir" type="button" class="rounded-full bg-orange-500 px-4 py-1.5 text-sm font-bold text-white transition hover:bg-orange-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2">
+          Expandir todo
+        </button>
+        <button id="cerrar" type="button" class="rounded-full border border-slate-200 bg-white px-4 py-1.5 text-sm font-bold text-slate-600 transition hover:border-orange-500 hover:text-orange-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500">
+          Cerrar todo
+        </button>
+      </div>
+    </div>
+
+    <!-- Guías -->
+    <div class="space-y-4">
+      {guias.map((g, gi) => (
+        <details
+          id={g.id}
+          data-guia
+          open={gi === 0}
+          class="group scroll-mt-24 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md"
+        >
+          <summary class="flex cursor-pointer list-none items-start gap-4 p-5 sm:p-6 [&::-webkit-details-marker]:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-orange-500">
+            <span aria-hidden="true" class="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-orange-100 text-2xl">{g.emoji}</span>
+            <div class="min-w-0 flex-1">
+              <h2 class="text-lg font-bold leading-snug text-slate-900">{g.titulo}</h2>
+              <p class="mt-1 text-sm text-slate-500">{g.desc}</p>
+              <div class="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
+                <span class="rounded-md bg-slate-100 px-2 py-1 text-slate-600">⏱ {g.lectura} de lectura</span>
+                <span class="rounded-md bg-emerald-50 px-2 py-1 text-emerald-700">Nivel: {g.nivel}</span>
+                <span class="rounded-md bg-orange-50 px-2 py-1 text-orange-700">{g.secciones.length} apartados</span>
+              </div>
+            </div>
+            <svg class="mt-1 h-5 w-5 shrink-0 text-slate-400 transition-transform duration-200 group-open:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+            </svg>
+          </summary>
+
+          <div class="contenido space-y-4 border-t border-slate-100 p-5 sm:p-6">
+            <!-- Resumen rápido -->
+            <div class="rounded-2xl border border-orange-200 bg-orange-50 p-5">
+              <h3 class="text-xs font-extrabold uppercase tracking-wider text-orange-800">Resumen rápido</h3>
+              <ul class="mt-3 space-y-2 text-sm text-orange-900">
+                {g.resumen.map((r) => (
+                  <li class="flex gap-2"><span aria-hidden="true">✔</span><span>{r}</span></li>
+                ))}
+              </ul>
+            </div>
+
+            <!-- Secciones desplegables -->
+            <div class="space-y-3">
+              {g.secciones.map((s) => (
+                <details data-seccion class="group/sec rounded-xl border border-slate-200 bg-slate-50/50">
+                  <summary class="flex cursor-pointer list-none items-center justify-between gap-3 p-4 [&::-webkit-details-marker]:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-orange-500 rounded-xl">
+                    <span class="font-bold text-slate-800">{s.titulo}</span>
+                    <span class="flex items-center gap-3">
+                      <span class="hidden text-xs font-semibold text-slate-400 sm:inline">{s.items.length} {s.tipo === 'pasos' ? 'pasos' : 'puntos'}</span>
+                      <svg class="h-4 w-4 text-slate-400 transition-transform duration-200 group-open/sec:rotate-180" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.17l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                      </svg>
+                    </span>
+                  </summary>
+
+                  <div class="contenido px-4 pb-4">
+                    {s.tipo === 'pasos' && (
+                      <ol class="space-y-3">
+                        {s.items.map((it, i) => (
+                          <li class="flex gap-3">
+                            <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-orange-100 text-xs font-extrabold text-orange-700">{i + 1}</span>
+                            <p class="text-sm text-slate-600">
+                              {it.titulo && <strong class="text-slate-900">{it.titulo} </strong>}{it.texto}
+                            </p>
+                          </li>
+                        ))}
+                      </ol>
+                    )}
+
+                    {s.tipo === 'lista' && (
+                      <ul class="space-y-3">
+                        {s.items.map((it) => (
+                          <li class="flex gap-3">
+                            <span aria-hidden="true" class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-orange-500"></span>
+                            <p class="text-sm text-slate-600">
+                              {it.titulo && <strong class="text-slate-900">{it.titulo} </strong>}{it.texto}
+                            </p>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+
+                    {s.tipo === 'estado' && (
+                      <ul class="space-y-3">
+                        {s.items.map((it) => {
+                          const info = estadoInfo[it.estado ?? 'ok'];
+                          return (
+                            <li class="rounded-xl border border-slate-200 bg-white p-4">
+                              <div class="flex flex-wrap items-center gap-2">
+                                <span class={`inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs font-bold ${info.cls}`}>
+                                  <span aria-hidden="true">{info.icon}</span>{info.label}
+                                </span>
+                                {it.titulo && <strong class="text-sm text-slate-900">{it.titulo}</strong>}
+                              </div>
+                              <p class="mt-2 text-sm text-slate-600">{it.texto}</p>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    )}
+                  </div>
+                </details>
+              ))}
+            </div>
+
+            <!-- Truco final -->
+            <div class="flex gap-3 rounded-2xl border border-sky-200 bg-sky-50 p-4">
+              <span aria-hidden="true" class="text-xl">💡</span>
+              <p class="text-sm text-sky-900"><strong>Truco:</strong> {g.tip}</p>
+            </div>
+
+            {g.relacionado && (
+              <a href={g.relacionado.href} class="inline-flex items-center gap-1 text-sm font-bold text-orange-600 hover:underline">
+                {g.relacionado.texto} →
+              </a>
+            )}
+          </div>
+        </details>
+      ))}
+    </div>
+
+    <!-- CTA final -->
+    <section class="mt-10 rounded-3xl border border-orange-200 bg-orange-50 p-6 text-center">
+      <h2 class="text-lg font-black text-slate-900">¿Todavía con dudas?</h2>
+      <p class="mt-1 text-sm text-slate-600">Consulta los tiempos exactos de cada alimento o convierte tus recetas de horno.</p>
+      <div class="mt-4 flex flex-wrap justify-center gap-3">
+        <a href="/tabla-tiempos" class="rounded-full bg-orange-500 px-5 py-2 text-sm font-bold text-white transition hover:bg-orange-600">Ver tabla de tiempos</a>
+        <a href="/calculadora-horno-airfryer" class="rounded-full border border-orange-300 bg-white px-5 py-2 text-sm font-bold text-orange-700 transition hover:border-orange-500">Calculadora de horno</a>
+      </div>
+    </section>
+  </main>
+
+  <style>
+    details[open] > .contenido {
+      animation: aparecer 0.25s ease-out;
+    }
+    @keyframes aparecer {
+      from { opacity: 0; transform: translateY(-4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      details[open] > .contenido { animation: none; }
+    }
+  </style>
+
+  <script>
+    const todos = document.querySelectorAll<HTMLDetailsElement>('details[data-guia], details[data-seccion]');
+    const guias = document.querySelectorAll<HTMLDetailsElement>('details[data-guia]');
+
+    document.getElementById('expandir')?.addEventListener('click', () => {
+      todos.forEach((d) => (d.open = true));
+    });
+    document.getElementById('cerrar')?.addEventListener('click', () => {
+      todos.forEach((d) => (d.open = false));
+    });
+
+    // Abrir la guía indicada en la URL (/guias#limpieza)
+    function abrirDesdeHash() {
+      const id = location.hash.slice(1);
+      if (!id) return;
+      const el = document.getElementById(id);
+      if (el instanceof HTMLDetailsElement && el.hasAttribute('data-guia')) {
+        el.open = true;
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+
+    // Mantener la URL actualizada al abrir una guía para poder compartirla
+    guias.forEach((d) =>
+      d.addEventListener('toggle', () => {
+        if (d.open) history.replaceState(null, '', `#${d.id}`);
+      })
+    );
+
+    abrirDesdeHash();
+    window.addEventListener('hashchange', abrirDesdeHash);
+  </script>
+</Layout>

@@ -1,0 +1,38 @@
+{
+  "id": "52952",
+  "slug": "beef-lo-mein-52952",
+  "title": "Beef Lo Mein",
+  "description": "Receta fácil y saludable de beef lo mein preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/52952.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1/2 lb de carne de res",
+    "una pizca de sal",
+    "Una pizca de pimienta",
+    "2 cucharaditas de aceite de semillas de sésamo",
+    "1/2 huevo",
+    "3 cucharadas de almidón",
+    "5 cucharadas de aceite",
+    "Fideos de 1/4 lb",
+    "1/2 taza de cebolla",
+    "1 cucharadita ajo en polvo",
+    "1 cucharadita de jengibre",
+    "1 taza de brotes de frijoles",
+    "1 taza de champiñones",
+    "1 taza de agua",
+    "1 cucharada de salsa de ostras",
+    "1 cucharadita de azúcar ",
+    "• 1 tsp soy sauce"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Beef Lo Mein.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "53457",
+  "slug": "barbados-pepperpot-53457",
+  "title": "Barbados Pepperpot",
+  "description": "Receta fácil y saludable de barbados pepperpot preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53457.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "2 Pies de cerdo",
+    "2 libras de rabo de buey",
+    "Salpicaduras de zumo de lima",
+    "3 dientes de ajo",
+    "2 Scotch Bonnet",
+    "1 cebolla grande",
+    "1 rama de canela",
+    "2 dientes de ajo",
+    "pizca de azúcar",
+    "una pizca de sal",
+    "Espolvorear albahaca",
+    "Espolvorear tomillo",
+    "2 libras de carne de res"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Barbados Pepperpot.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

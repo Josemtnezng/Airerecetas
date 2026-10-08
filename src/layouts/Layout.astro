@@ -1,0 +1,35 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { 
+  title = "Aire Recetas - Recetas para Freidora de Aire", 
+  description = "Descubre las mejores recetas fáciles, rápidas y saludables para tu freidora de aire." 
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <style is:global>
+      @import "tailwindcss";
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col">
+    <!-- El contenido de la página (que ya incluye su propio Header) se renderiza aquí -->
+    <main class="flex-grow w-full">
+      <slot />
+    </main>
+
+    <footer class="bg-slate-900 text-slate-400 py-8 text-center text-sm border-t border-slate-800 mt-12">
+      <p>© {new Date().getFullYear()} Aire Recetas - Todas las recetas sin peticiones externas.</p>
+    </footer>
+  </body>
+</html>

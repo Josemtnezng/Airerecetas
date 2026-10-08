@@ -1,0 +1,31 @@
+{
+  "id": "53147",
+  "slug": "arroz-con-gambas-y-calamar-53147",
+  "title": "Arroz con gambas y calamar",
+  "description": "Receta fácil y saludable de arroz con gambas y calamar preparada en freidora de aire.",
+  "category": "Pescados",
+  "imageUrl": "/images/recipes/53147.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 185,
+  "servings": 4,
+  "ingredients": [
+    "24 gambas reales crudas",
+    "2 cucharadas de aceite de oliva",
+    "1 cebolla pequeña.",
+    "1 hoja de laurel",
+    "1 pizca de azafrán",
+    "450 g de arroz con paella",
+    "2 cucharaditas de puré de tomate",
+    "200 ml de vino blanco seco",
+    "650 ml de caldo de marisco",
+    "3 calamares medianos"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Arroz con gambas y calamar.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 185°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

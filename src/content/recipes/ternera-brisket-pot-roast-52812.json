@@ -1,0 +1,32 @@
+{
+  "id": "52812",
+  "slug": "ternera-brisket-pot-roast-52812",
+  "title": "Ternera Brisket Pot Roast",
+  "description": "Receta fácil y saludable de ternera brisket pot roast preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/52812.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "Pechuga de ternera de 4-5 libras",
+    "Dash Salt",
+    "3 Cebolla",
+    "5 dientes de ajo",
+    "1 ramita de tomillo",
+    "1 ramita de romero",
+    "Hojas de laurel",
+    "2 tazas de caldo de res",
+    "3 zanahorias grandes",
+    "1 cucharada de mostaza",
+    "Puré de patatas"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Ternera Brisket Pot Roast.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

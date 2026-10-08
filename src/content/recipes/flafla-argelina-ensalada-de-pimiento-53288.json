@@ -1,0 +1,28 @@
+{
+  "id": "53288",
+  "slug": "flafla-argelina-ensalada-de-pimiento-53288",
+  "title": "Flafla argelina (ensalada de pimiento)",
+  "description": "Receta fácil y saludable de flafla argelina (ensalada de pimiento) preparada en freidora de aire.",
+  "category": "Verduras",
+  "imageUrl": "/images/recipes/53288.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "temperatureCelsius": 180,
+  "servings": 4,
+  "ingredients": [
+    "Morrón",
+    "1 cucharada de aceite de oliva",
+    "1 cucharada de cebolla picada\t\t\t\t\t-",
+    "1 diente de ajo triturado pelado",
+    "Para probar la sal",
+    "Para probar la pimienta",
+    "1 tomate ciruela cortado en cubitos"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Flafla argelina (ensalada de pimiento).",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 180°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 15 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "53548",
+  "slug": "patatas-fritas-de-yuca-al-horno-53548",
+  "title": "Patatas fritas de yuca al horno",
+  "description": "Receta fácil y saludable de patatas fritas de yuca al horno preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53548.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "2 yuca grandes",
+    "2 cucharadas de aceite de oliva extra virgen",
+    "1 cucharadita de chile en polvo",
+    "1 pizca de sal kosher",
+    "Una pizca de pimienta negra molida",
+    "1 aguacate grande",
+    "1 taza de crema agria",
+    "1 lima en zumo",
+    "1 taza de cilantro"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Patatas fritas de yuca al horno.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

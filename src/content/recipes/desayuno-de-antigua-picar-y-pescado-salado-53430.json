@@ -1,0 +1,29 @@
+{
+  "id": "53430",
+  "slug": "desayuno-de-antigua-picar-y-pescado-salado-53430",
+  "title": "Desayuno de Antigua (picar y pescado salado)",
+  "description": "Receta fácil y saludable de desayuno de antigua (picar y pescado salado) preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53430.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "temperatureCelsius": 185,
+  "servings": 4,
+  "ingredients": [
+    "4 Huevas",
+    "8 oz Callaloo",
+    "1 libra de calabaza",
+    "3 dientes de ajo picado",
+    "1 cebolla picada",
+    "2 oz de mantequilla",
+    "1/2 cucharadita de sal ",
+    "1/4 cucharadita de pimienta negra"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Desayuno de Antigua (picar y pescado salado).",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 185°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 15 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

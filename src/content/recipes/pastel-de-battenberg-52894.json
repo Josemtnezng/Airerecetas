@@ -1,0 +1,41 @@
+{
+  "id": "52894",
+  "slug": "pastel-de-battenberg-52894",
+  "title": "Pastel de Battenberg",
+  "description": "Receta fácil y saludable de pastel de battenberg preparada en freidora de aire.",
+  "category": "Postres",
+  "imageUrl": "/images/recipes/52894.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 20,
+  "temperatureCelsius": 160,
+  "servings": 4,
+  "ingredients": [
+    "175 g de mantequilla",
+    "azúcar glas",
+    "harina con levadura incorporada",
+    "50 g de almendras",
+    "1 cdta <g id=\"1\">Polvo para hornear (½ tsp)</g>",
+    "3 huevos medianos",
+    "½ cda. de esencia de vainilla",
+    "1 cucharadita de extracto de almendra",
+    "175 g de mantequilla",
+    "azúcar glas",
+    "harina con levadura incorporada",
+    "50 g de almendras",
+    "1 cdta <g id=\"1\">Polvo para hornear (½ tsp)</g>",
+    "3 huevos medianos",
+    "½ cda. de esencia de vainilla",
+    "1 cucharadita de extracto de almendra",
+    "½ cucharadita de colorante rosa para alimentos",
+    "200 g de albaricoque",
+    "1 kg de mazapán",
+    "Azúcar glaseado para espolvorear"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Pastel de Battenberg.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 160°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 20 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

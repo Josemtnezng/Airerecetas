@@ -1,0 +1,36 @@
+{
+  "id": "52904",
+  "slug": "b-uf-bourguignon-52904",
+  "title": "Bœuf bourguignon",
+  "description": "Receta fácil y saludable de bœuf bourguignon preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/52904.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "3 cucharaditas de grasa de ganso",
+    "600 g de espinilla de ternera",
+    "100 grs de tocino",
+    "350 g de chalecos",
+    "250 g de champiñones castaño",
+    "2 rodajas de diente de ajo",
+    "1 bouquet garni",
+    "1 cucharada de puré de tomate",
+    "750 ml de vino tinto",
+    "600 g de apio apio",
+    "1 cucharadas de aceite de oliva",
+    "5 ramitas Tomillo fresco ",
+    "2 ramitas de romero fresco",
+    "<g id=\"1\">         </g>2 hojas de laurel",
+    "4 Cardamomo"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Bœuf bourguignon.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

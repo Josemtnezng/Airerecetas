@@ -1,0 +1,31 @@
+{
+  "id": "53389",
+  "slug": "pure-de-patata-y-manzana-hete-bliksem-53389",
+  "title": "Puré de patata y manzana (Hete bliksem)",
+  "description": "Receta fácil y saludable de puré de patata y manzana (hete bliksem) preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53389.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "250 g de manzanas",
+    "250 g de patatas",
+    "1 rama de canela",
+    "1 cucharadita de jarabe de arce",
+    "Espolvorear canela molida",
+    "4 Bacon",
+    "200 g de queso",
+    "una pizca de sal",
+    "1 unid Huevo",
+    "Semillas de sésamo"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Puré de patata y manzana (Hete bliksem).",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

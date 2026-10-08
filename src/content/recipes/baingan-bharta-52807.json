@@ -1,0 +1,30 @@
+{
+  "id": "52807",
+  "slug": "baingan-bharta-52807",
+  "title": "Baingan Bharta",
+  "description": "Receta fácil y saludable de baingan bharta preparada en freidora de aire.",
+  "category": "Verduras",
+  "imageUrl": "/images/recipes/52807.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 15,
+  "temperatureCelsius": 180,
+  "servings": 4,
+  "ingredients": [
+    "1 berenjena grande",
+    "½ taza de cebolla",
+    "1 taza de tomates",
+    "-<g id=\"1\">         </g>6 dientes de ajo",
+    "Chile verde",
+    "1 cu de guindilla roja en polvo",
+    "1 cucharada de aceite.",
+    "1 cucharada de hojas de cilantro picadas",
+    "Según se requiera"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Baingan Bharta.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 180°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 15 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "52959",
+  "slug": "salmon-al-horno-con-hinojo-y-tomates-52959",
+  "title": "Salmón al horno con hinojo y tomates",
+  "description": "Receta fácil y saludable de salmón al horno con hinojo y tomates preparada en freidora de aire.",
+  "category": "Pescados",
+  "imageUrl": "/images/recipes/52959.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 185,
+  "servings": 4,
+  "ingredients": [
+    "2 hinojos medianos",
+    "2 cucharadas de perejil picado",
+    "El zumo de un limón",
+    "Tomates cereza",
+    "1 cucharada de aceite de oliva",
+    "350 g de salmón",
+    "para servir aceitunas negras"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Salmón al horno con hinojo y tomates.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 185°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

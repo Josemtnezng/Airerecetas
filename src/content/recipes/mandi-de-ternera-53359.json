@@ -1,0 +1,33 @@
+{
+  "id": "53359",
+  "slug": "mandi-de-ternera-53359",
+  "title": "Mandi de ternera",
+  "description": "Receta fácil y saludable de mandi de ternera preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53359.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1 kg de arroz Basmati",
+    "5 tazas de caldo de ternera",
+    "Media cebolla mediana",
+    "6 dientes de ajo picado",
+    "Chile verde",
+    "1 tomate pequeño",
+    "1/2 cucharadita de sal ",
+    "3 cucharadas de aceite",
+    "1 cucharadita de cúrcuma en polvo",
+    "1/2 cucharadita de cardamomo",
+    "1/2 cucharadita de clavo",
+    "½ hoja de laurel"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Mandi de ternera.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

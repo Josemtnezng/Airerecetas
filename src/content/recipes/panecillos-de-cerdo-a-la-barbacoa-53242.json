@@ -1,0 +1,31 @@
+{
+  "id": "53242",
+  "slug": "panecillos-de-cerdo-a-la-barbacoa-53242",
+  "title": "Panecillos de cerdo a la barbacoa",
+  "description": "Receta fácil y saludable de panecillos de cerdo a la barbacoa preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53242.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "85 g de azúcar",
+    "500 g de mezcla para pan blanco",
+    "1 cucharada de aceite de girasol",
+    "12 Bacon",
+    "Perilla de jengibre",
+    "2 dientes de ajo picados;",
+    "2 cucharadas de salsa de soya",
+    "3  cucharadas de miel clara",
+    "3  cucharadas de puré de tomate",
+    "Huevo batido 1"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Panecillos de cerdo a la barbacoa.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "52878",
+  "slug": "pastel-de-ternera-y-ostras-52878",
+  "title": "Pastel de ternera y ostras",
+  "description": "Receta fácil y saludable de pastel de ternera y ostras preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/52878.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "900 g de carne de vacuno",
+    "3 cucharadas de aceite de oliva",
+    "Chalote",
+    "2 dientes de ajo picado",
+    "125 g de tocino",
+    "1 cucharada de tomillo picado",
+    "<g id=\"1\">         </g>2 hojas de laurel",
+    "330 ml de Stout",
+    "400 ml de caldo de ternera",
+    "2 cucharadas de harina de maíz",
+    "8. Ostras",
+    "Harina corriente",
+    "una pizca de sal",
+    "250 gr Mantequilla",
+    "vidriar"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Pastel de ternera y ostras.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

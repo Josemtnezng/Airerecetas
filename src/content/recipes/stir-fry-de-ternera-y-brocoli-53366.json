@@ -1,0 +1,35 @@
+{
+  "id": "53366",
+  "slug": "stir-fry-de-ternera-y-brocoli-53366",
+  "title": "Stir-Fry de ternera y brócoli",
+  "description": "Receta fácil y saludable de stir-fry de ternera y brócoli preparada en freidora de aire.",
+  "category": "Carnes",
+  "imageUrl": "/images/recipes/53366.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 18,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "• 1 tsp soy sauce",
+    "1 cucharadita de jerez seco",
+    "1/2 cucharadita de almidón de maíz",
+    "1/8 cucharadita de pimienta negra",
+    "1 libra de filete de solomillo",
+    "2 cucharadas de salsa de ostras",
+    "1 cucharadita de jerez seco",
+    "1 cucharada de salsa de soja",
+    "1/4 taza de caldo de pollo",
+    "1 libra de brócoli",
+    "2 cucharadas de aceite de cocina de alta temperatura",
+    "2 dientes de ajo picado",
+    "1 cucharadita de almidón de maíz",
+    "1 cucharada de agua "
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Stir-Fry de ternera y brócoli.",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 18 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "53529",
+  "slug": "almojabanas-pan-de-queso-colombiano-53529",
+  "title": "Almojábanas (Pan de Queso Colombiano)",
+  "description": "Receta fácil y saludable de almojábanas (pan de queso colombiano) preparada en freidora de aire.",
+  "category": "Snacks",
+  "imageUrl": "/images/recipes/53529.jpg",
+  "prepTimeMinutes": 10,
+  "cookTimeMinutes": 12,
+  "temperatureCelsius": 190,
+  "servings": 4,
+  "ingredients": [
+    "1 1/4 taza de harina de maíz",
+    "3 tazas de queso fresco",
+    "1 taza de mozzarella",
+    "2 cucharadas de mantequilla",
+    "1 cucharadita de polvo de hornear&#10;",
+    "1/4 de cucharadita de sal",
+    "2. Huevos",
+    "4 cucharadas"
+  ],
+  "steps": [
+    "Prepara y limpia todos los ingredientes para Almojábanas (Pan de Queso Colombiano).",
+    "Sazona al gusto y añade una cucharadita de aceite de oliva.",
+    "Precalienta la freidora de aire a 190°C durante 3 minutos.",
+    "Coloca los ingredientes en la cesta sin amontonar y programa 12 minutos.",
+    "Mueve la cesta a mitad del tiempo de cocción y sirve caliente cuando esté dorado."
+  ]
+}
